@@ -1,1 +1,1 @@
-from home import *
+from app.views.HomeView import HomeView
