@@ -1,10 +1,13 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}</title>
-</head>
+    <link rel="stylesheet" href="{% static  "dist/lib.css"%}"></head>
 <body>
 {% block content %}{% endblock %}
+
+<script type="application/javascript" src="{% static "dist/lib.js" %}"/>
 </body>
 </html>
