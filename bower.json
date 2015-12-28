@@ -1,0 +1,22 @@
+{
+  "name": "spotifyplaylist",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Daniel Gómez Didier <dnlgmzddr@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/codecastination/community-spotify",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
