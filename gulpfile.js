@@ -8,7 +8,7 @@ var nano = require('gulp-cssnano');
 var less = require("gulp-less");
 
 var debug = false;
-var outputRoot = "static/";
+var outputRoot = "app/static/";
 
 
 gulp.task("lib_js", function () {
